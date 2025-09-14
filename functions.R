@@ -36,3 +36,7 @@ aggregate(df[, c(1, 3)],
 aggregate(cbind(mpg, disp) ~ am + vs,
           df,
           sd)
+
+my_stats <- aggregate(cbind(mpg, disp) ~ am + vs,
+                      df,
+                      sd)
