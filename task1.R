@@ -7,4 +7,3 @@ result_func <- function(vec) {
   return(filtered_vec)
 }
 print(result_func(vec))
-
