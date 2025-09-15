@@ -10,9 +10,7 @@ outputting statistical indicators using `summary()`.
 * **Visualization**: plotting with R's built-in tools.
 
 ## Dataframe: mtcars
-
-<div style="width: 100%; overflow-x: auto;">
-
+```csv
 model,mpg,cyl,disp,hp,drat,wt,qsec,vs,am,gear,carb
 Mazda RX4,21,6,160,110,3.9,2.62,16.46,0,1,4,4
 Mazda RX4 Wag,21,6,160,110,3.9,2.875,17.02,0,1,4,4
@@ -46,5 +44,4 @@ Ford Pantera L,15.8,8,351,264,4.22,3.17,14.5,0,1,5,4
 Ferrari Dino,19.7,6,145,175,3.62,2.77,15.5,0,1,5,6
 Maserati Bora,15,8,301,335,3.54,3.57,14.6,0,1,5,8
 Volvo 142E,21.4,4,121,109,4.11,2.78,18.6,1,1,4,2
-
-</div>
+```
