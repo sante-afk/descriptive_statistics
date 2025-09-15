@@ -34,13 +34,25 @@ my_vector1 > 30
 x <- 23
 my_vector1 > x
 my_vector2 > 0
+
+# selection of positive elements of a vector
 my_vector2[my_vector2 > 0]
+
+# selection of negative elements of a vector
 my_vector2[my_vector2 < 0]
+
+# selection of zero elements
 my_vector2[my_vector2 == 0]
-my_vector1[my_vector1 > 20 & my_vector1 < 30]
+
+my_vector1[my_vector1 > 20 & my_vector1 < 30] # selection of vector elements greater than 20 and less than 30
 positive_numbers <- my_vector2[my_vector2 > 0]
+
+# vector creation
 v1 <- c(165, 178, 180, 181, 167, 178, 187, 167, 187)
-mean_v1 <- mean(v1)
+
+mean_v1 <- mean(v1) # сalculating the average value
 v1[v1 > mean_v1]
-greater_than_mean <- v1[v1 > mean_v1]
+
+# saving the elements of a vector that are above the average in the vector
+greater_than_mean <- v1[v1 > mean_v1] 
 
